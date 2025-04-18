@@ -12,7 +12,8 @@ from openai import OpenAI
 client = OpenAI(api_key="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")  # Replace with your actual OpenAI key
 
 # Load CSV file
-file_path = r"C:/Users/nikhi/Downloads/operational_data_full_jan_to_mar_2025 (1).csv"
+file_path = "operational_data_full_jan_to_mar_2025 (1).csv"
+
 df = pd.read_csv(file_path)
 
 # Filter pending cases
